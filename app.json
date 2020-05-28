@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "guessTheNumber",
-    "slug": "guessTheNumber",
+    "name": "Guess Number",
+    "slug": "guess-number",
+    "privacy":"public",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -23,6 +23,15 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package":"com.salihzinaty.guessNumber",
+      "versionCode":1,
+      "adaptiveIcon":{
+        "foregroundImage":"./assets/splash.png",
+        "backgroundColor":"#ffffff"
+      },
+      "permissions":[]
     }
   }
 }
